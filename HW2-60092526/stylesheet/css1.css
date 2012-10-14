@@ -5,44 +5,64 @@ html{color:#000;
 		padding: 5px 20px 40px 40px;
 		font: 12px/20px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdana, Arial, Tahoma;
 }
-
-#wrap {width:500px; margin: 0 auto;
-			border-style: solid;
-			padding-top: 10px;
-			border-top-width: 2;
-			border-right: 0; border-left: 0;
-			border-color: #660033; 
+a img{border: 0;}
+#middle {width:40%; height: 600px; background-color: #D1FFCA;
+		margin: 10px 0px 10px 10px; padding-left: 40px; clear: left; float: left;}
+#middle-right{
+	width:40%; height: 600px; background-color: #D1FFCA;
+		margin: 10px 10px 10px 0px; padding-left: 40px; border-style: solid; float: left;
+		border-left: 1; border-top: 0;border-bottom: 0;border-right: 0;}
 }
-#middle {width:500px; 
-		margin: 10px auto; }
+li {text-decoration:none;}
+#in-middle{
+	width:180px; 
+	height: 180px; 
+	margin: 10px;
+	border-style: solid;
+	border-color: #BFFFB8;
+	margin-left: 300px;
+	overflow: auto; text-overflow: auto;
+	font: 12px/20px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdana, Arial, Tahoma;
+}
+#in-middle2{
+	width:180px; 
+	height: 180px; 
+	margin: 10px;
+	border-style: solid;
+	border-color: #BFFFB8;
+	margin-left: 300px;
+	overflow: auto; text-overflow: auto;
+	font: 12px/20px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdana, Arial, Tahoma;
+}
+#logo {width:300px; margin: 20px, 0px 20px 200px;
+}
 
-#navbar {width:500px; height:30px; background-color:#FAED7D;
-		margin: 10px auto;
+#navbar {width:100%; height:35px; background-color:#FAED7D;
+		margin: 5px 10px 5px 5px;
 	}
-#navbar ul {margin:0;padding:0;}
-#navbar ul li {float:left;}
+#navbar ul {margin: 0px; padding: 0px;}
+#navbar ul li { float:left; }
 #navbar ul li a{
-	color:#000; background-color:#FAED7D;
+	color:#FFF; background-color:#050099;
 	display:block;
-	width:60px;
+	width:80px;
 	text-align:center;
+	margin-top: 5px;
 	padding:0px 10px; 
-	font: bold 12px/30px Tahoma;
+	font: bold 12px/30px "맑은 고딕", Tahoma;
 	text-decoration:none;
 	margin-right:1px;
 }
 #navbar ul li a.now{
-	color:#000; background-color:#FF00DD;
-	display:block;
-	width:35px;
-	text-align:center;
-	padding:0px 10px; 
-	font: bold 20px/30px Tahoma;
-	text-decoration:none;
-	margin-right:2px;
+	background-color:#FF00DD;
+	font: bold 15px/30px "맑은 고딕", Tahoma;
+	text-decoration:underline;
 }
+#navbar ul li a:hover {background-color:#FF00DD; 
+	font: bold 15px/30px "맑은 고딕", Tahoma;}
 .now {color: #FF00DD;
 	background-color: #FF00DD;}
+
 #navbar li {list-style: none;}
-p.end{font-style: italic; font-size:9px;
+p.end{font-style: italic; font-size:9px; clear: left;
  	text-align: right; padding-right: 40px; color: gray;}
