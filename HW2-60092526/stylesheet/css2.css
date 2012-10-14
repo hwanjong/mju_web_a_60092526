@@ -1,0 +1,62 @@
+html{color:#000;
+
+		background:#D4F4FA;
+		text-align: left;
+		padding: 5px 20px 40px 40px;
+		font: 12px/20px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdana, Arial, Tahoma;
+}
+
+#wrap {width:30%; height:350px; margin: 10px 10px auto;
+			border-style: solid;
+			padding:  5px;
+			border-color: ##0100FF; 
+			float: left;
+			text-overflow:ellipsis; overflow:auto; 
+}
+#hugi {width : 40%; height: 100px; margin: 10px 10px auto;
+			border-style: solid;
+			padding:  5px;
+			font-style: italic; text-indent: 15px;
+			border-color: ##0100FF; 
+			float: left;
+			overflow: auto; text-overflow: ellipsis;
+ }
+ .new{text-decoration: underline; font-weight: bold; font-family: "굴림","맑은 고딕";
+		font-size: 13px; clear: left; padding-top: 30px; text-indent: 20px;}
+hr {clear:left; margin-top:800px;}
+ol li {font-size: 14px;
+		font-weight: bold;}
+ul li{font-size: 14px; font-weight: normal;
+		font-family: "맑은 고딕", GEorgia, serif;}
+th { font-size: 15px; font-weight: bold;}
+#navbar {width:500px; height:30px; background-color:#FAED7D;
+		margin: 10px auto;
+	}
+#navbar ul {margin:0;padding:0;}
+#navbar ul li {float:left;}
+#navbar ul li a{
+	color:#000; background-color:#FAED7D;
+	display:block;
+	width:60px;
+	text-align:center;
+	padding:0px 10px; 
+	font: bold 12px/30px Tahoma;
+	text-decoration:none;
+	margin-right:1px;
+}
+#navbar ul li a.now{
+	color:#000; background-color:#FF00DD;
+	display:block;
+	width:35px;
+	text-align:center;
+	padding:0px 10px; 
+	font: bold 20px/30px Tahoma;
+	text-decoration:none;
+	margin-right:2px;
+}
+.now {color: #FF00DD;
+	background-color: #FF00DD;}
+#navbar li {list-style: none;}
+p.end{font-style: italic; font-size:9px;
+ 	text-align: right; padding-right: 40px; color: gray;
+ 	clear: left;}

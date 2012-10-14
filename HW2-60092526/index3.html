@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>세번째</title>
+</head>
+<body>
+	<p style="font-size:8pt">간단한설문이니찍지말아주세요...</p>
+	<form action="\undate.php" method="post">
+		<table border = "1">
+			<caption>간단한설문조사페이지</caption>
+			<thead>
+				<tr>
+					<th colspan="2">설문조사</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>이름</th>
+					<td>
+						<input type = "text" name ="name" size="10"/>
+					</td>
+				</tr>
+				<tr>
+					<th>사진넣기</th>
+					<td><input type="file" name="photo"/></td>
+				</tr>
+				<tr>
+					<th>성별</th>
+					<td>
+					<input type="radio" name="sex" value="m"/>남
+					<input type="radio" name="sex" value="f"/>여
+					</td>
+				</tr>
+				<tr>
+					<th>몸무게입력<br/>
+						<span style="font-size:8pt; color:red;">표시안됨	</span>
+					</th>
+					<td>
+						<input type="password" name="key" size="10"/>
+					</td>
+				</tr>
+				<tr>
+					<th>좋아하는음식은?</th>
+				<td>
+					<select name = "food">
+						<option value = "wp">피자</option>
+						<option value = "adJava">치킨</option>
+						<option value = "multi">탕수육</option>
+					</select>
+				</td>
+				<tr>
+					<th>주로먹는방법은?</th>
+					<td>
+						<input type="checkbox" name="how" value="delivery"/>배달
+						<input type="checkbox" name="how" value="visit"/>방문
+						<input type="checkbox" name="how" value="other"/>기타
+					</td>
+				</tr>
+				<tr>
+					<th>그 이유는?</th>
+					<td>
+						<textarea cols="20" rows="5" name="reason"></textarea>
+					</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th colspan="2"><input type="submit" value="저장">
+						<input type="button" value="닫기">
+					</th>
+				</tr>
+			</tfoot>
+		</table>
+	</form>
+	<p>
+		<a href="index.html"><img src="img/home.png" width="30" height="30" alt="home" title="home"></a>
+		<a href="index2.html"><img src="img/back.png" width="30" height="30" alt="back" title="back"></a>
+		돌아가기
+	</p>
+
+</body>
+</html>
+

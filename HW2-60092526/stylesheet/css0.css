@@ -1,0 +1,30 @@
+html{color:#000;
+		background:#B2EBF4;
+		text-align: center;
+		padding:20px 0;
+		font: 12px/18px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdan, Arial, Tahoma;
+}
+
+
+#wrap {width:500px; margin: 0 auto;
+			border-style: solid;
+			padding-top: 10px;
+			border-top-width: 2;
+			border-right: 0; border-left: 0;
+			border-color: #660033; 
+}
+
+p { 
+	font-style: none; 
+	font :"맑은 고딕", "Malgun Gothic","굴림", 10px; 
+	text-align: center;
+}
+
+p a{ padding-top: 5px}
+a.num {border-style: solid;
+ 		border-width: 3px; 
+ 		background-color: gray;
+ 		border-color: gray;	}
+ p.end{font-style: italic; font-size:9px;
+ 	text-align: right; padding-right: 40px; color: gray;}
+span {margin-top: 2px}
